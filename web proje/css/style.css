@@ -1,0 +1,36 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Şehir slider için özel stil */
+.carousel-item img {
+    max-height: 500px;
+    object-fit: cover;
+}
+
+#fortnitefoto {
+    width: 400px;
+    height: 600px;
+}
+
+#ValorantJett {
+    width: 400px;
+    height: auto;
+}
+
+#CS2foto {
+    width: 400px;
+    height: auto;
+    margin-left: 20px;
+}
