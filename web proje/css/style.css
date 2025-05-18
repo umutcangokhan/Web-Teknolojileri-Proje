@@ -13,10 +13,19 @@ footer {
     width: 100%;
 }
 
-/* Şehir slider için özel stil */
+
 .carousel-item img {
-    max-height: 500px;
+/* Şehir slider için özel stil */    max-height: 500px;
     object-fit: cover;
+}
+
+#OyunlarContainer {
+    margin-top: 100px;
+    div{
+        div{
+        margin-top: 100px;
+        }
+    }
 }
 
 #fortnitefoto {
@@ -29,8 +38,31 @@ footer {
     height: auto;
 }
 
-#CS2foto {
+#rdr2 {
     width: 400px;
     height: auto;
-    margin-left: 20px;
+}
+
+
+
+#SevdigimSanatcilar {
+    margin-top: 50px;
+    div{
+        margin-top: 50px;
+    }
+}
+
+#EminemFoto {
+    width: 400px;
+    height: 470px;
+}
+
+#DumanFoto {
+    width: 400px;
+    height: 470px;
+}
+
+#MorVeOtesiFoto {
+    width: 400px;
+    height: 470px;
 }

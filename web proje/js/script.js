@@ -1,7 +1,7 @@
 const API_KEY = "cbcc8f8e3dc747739f2f6f18d6366340";
 const RDR2_ID = 28; // Red Dead Redemption 2'nin RAWG ID'si
 
-fetch(`https://api.rawg.io/api/games/28?key=cbcc8f8e3dc747739f2f6f18d6366340`)
+fetch(fetch(`https://corsproxy.io/?${encodeURIComponent(`https://api.rawg.io/api/games/28?key=${API_KEY}`)}`))
   .then(r => r.json())
   .then(game => {
     document.getElementById('games-container').innerHTML = `
