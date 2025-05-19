@@ -48,8 +48,12 @@ footer {
 #SevdigimSanatcilar {
     margin-top: 50px;
     div{
+        text-align: center;
         margin-top: 50px;
     }
+}
+#SevdigimSanatcilar .row {
+    justify-content: center;
 }
 
 #EminemFoto {
@@ -63,6 +67,16 @@ footer {
 }
 
 #MorVeOtesiFoto {
+    width: 400px;
+    height: 470px;
+}
+
+#Dedublümanfoto {
+    width: 400px;
+    height: 470px;
+}
+
+#MabelMatizfoto {
     width: 400px;
     height: 470px;
 }
