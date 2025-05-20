@@ -80,3 +80,23 @@ footer {
     width: 400px;
     height: 470px;
 }
+
+#sehirSlider {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#istanbulBaslik{
+    margin-top: 60px;
+    text-align: center;
+    font-family: 'Tahoma';
+    font-style: inherit;
+}
+
+#istanbulgenelfoto{
+    width: 600px;
+    height: auto;
+    margin-bottom: 50px;
+
+}
