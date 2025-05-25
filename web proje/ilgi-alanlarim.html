@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İlgi Alanlarım - Umut Can Gökhan</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="js/script.js"></script>
+    <style>
+        .interest-header {
+            background: linear-gradient(135deg, #4da8cd, #2c3e50);
+            color: white;
+            padding: 3rem 0;
+            margin-bottom: 3rem;
+            border-radius: 0 0 20px 20px;
+        }
+        
+        .game-card {
+            transition: all 0.3s ease;
+            margin-bottom: 2rem;
+            border: none;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .game-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+        }
+        
+        .game-img {
+            height: 200px;
+            object-fit: cover;
+            width: 100%;
+        }
+        
+        .game-badge {
+            background-color: #4da8cd;
+            color: white;
+        }
+        
+        .loading-spinner {
+            display: none;
+            width: 3rem;
+            height: 3rem;
+        }
+        
+        #gamesContainer {
+            min-height: 300px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgb(77, 168, 205);">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Umut Can Gökhan</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            <i class="fas fa-home"></i> Hakkımda
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cv.html">
+                            <i class="fas fa-info"></i> CV
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sehrim.html">
+                            <i class="fas fa-city"></i> Şehrim
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="mirasimiz.html">
+                            <i class="fas fa-heart"></i> Mirasımız
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="ilgi-alanlarim.html">
+                            <i class="fas fa-gamepad"></i> İlgi Alanlarım
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="iletisim.html">
+                            <i class="fas fa-envelope"></i> İletişim
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="d-flex">
+                <a class="btn btn-outline-light" href="login.html">
+                    <i class="fas fa-sign-in-alt"></i> Giriş
+                </a>
+            </div>
+        </div>
+    </nav>
+
+
+    <header class="interest-header text-center">
+        <div class="container">
+            <h1><i class="fas fa-gamepad me-2"></i>İlgi Alanlarım</h1>
+            <p class="lead">Favori oyunlarım ve hobilerim</p>
+        </div>
+    </header>
+
+
+    <main class="container mb-5">
+        <section id="gamesSection">
+            <h2 class="mb-4 text-center"><i class="fas fa-headset me-2"></i>Favori Oyunlarım</h2>
+            
+            <div class="text-center my-4">
+                <div class="spinner-border loading-spinner text-primary" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+            </div>
+            
+            <div id="gamesContainer" class="row">
+            </div>
+        </section>
+        
+        <section id="hobbiesSection" class="mt-5">
+            <h2 class="mb-4 text-center"><i class="fas fa-paint-brush me-2"></i>Diğer Hobilerim</h2>
+            
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 game-card">
+                        <img src="images/Duman.jpg" class="card-img-top" alt="Müzik">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-music me-2"></i>Müzik</h5>
+                            <p class="card-text">Farklı türlerde müzik dinlemek ve gitar çalmak.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 game-card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTf2eXlnCv-SEehEX4LXtMCFj3IyL5QxkfIKw&s" class="card-img-top" alt="Spor">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-running me-2"></i>Spor</h5>
+                            <p class="card-text">Futbol oynamak ve yüzme gibi spor aktiviteleri.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 game-card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQck7nDgiVprKIilb7spzoy4WssUSPSfbciZA&s" class="card-img-top" alt="Kitap">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-book me-2"></i>Kitap Okumak</h5>
+                            <p class="card-text">Bilim kurgu ve tarih kitaplarını okumak.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-3">
+        <div class="container text-center">
+            <p class="mb-0">© 2025 Umut Can Gökhan - Tüm Hakları Saklıdır</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

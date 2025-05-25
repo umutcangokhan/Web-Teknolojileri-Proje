@@ -1,0 +1,174 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #deefff;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+footer {
+     background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+.carousel-item img {
+/* Şehir slider için özel stil */    max-height: 500px;
+    object-fit: cover;
+}
+
+#header {
+    div{
+    h1{
+        color: #16263e;;
+    }
+
+    h5 {
+        color: #16263e;
+    }
+}
+}
+
+#Benfoto {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 20px;
+}
+
+#Gövde {
+    background-color: rgb(157, 211, 232);
+    h3{
+        color: #16263e;
+    }
+    p{
+        color: #1d2f45;
+    }
+
+    border-radius: 1cap;
+    div{
+        margin-top: 20px;
+    }
+}
+
+#rdr2 {
+    width: auto;
+    height: 470px;
+}
+
+#walter {
+    width: auto;
+    height: 470px;
+}
+
+
+
+#SevdigimSanatcilar {
+    margin-top: 50px;
+    div{
+        text-align: center;
+        margin-top: 50px;
+    }
+}
+#SevdigimSanatcilar .row {
+    justify-content: center;
+}
+
+#EminemFoto {
+    width: auto;
+    height: 470px;
+    margin-top: 30px;
+}
+
+#DumanFoto {
+    width: 400px;
+    height: 470px;
+}
+
+#MorVeOtesiFoto {
+    width: 400px;
+    height: 470px;
+}
+
+#Dedublümanfoto {
+    width: 400px;
+    height: 470px;
+}
+
+#MabelMatizfoto {
+    width: 400px;
+    height: 470px;
+}
+
+#sehirSlider {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#istanbulBaslik{
+    margin-top: 60px;
+    text-align: center;
+    font-family: 'Tahoma';
+    font-style: inherit;
+}
+
+#istanbulgenelfoto{
+    width: 600px;
+    height: auto;
+    margin-bottom: 50px;
+    border-radius: 3cap;
+}
+
+#Fatihfoto {
+    width: 600px;
+    height: auto;
+    border-radius: 3cap;
+}
+
+#KızKulesi {
+    width: 600px;
+    height: auto;
+    border-radius: 2cap;
+}
+
+#Ayasofya {
+    width: 600px;
+    height: auto;
+    border-radius: 2cap;
+}
+
+#Dolma {
+    width: 600px;
+    height: auto;
+    border-radius: 2cap;
+}
+
+#Taksim {
+    width: 600px;
+    height: auto;
+    border-radius: 2cap;
+}
+
+/* iletisim.html için ek stiller */
+#contactForm .is-invalid {
+    border-color: #dc3545;
+}
+
+#contactForm .invalid-feedback {
+    color: #dc3545;
+    display: block;
+}
+
+.card {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 768px) {
+    #contactForm {
+        padding: 0 15px;
+    }
+}
